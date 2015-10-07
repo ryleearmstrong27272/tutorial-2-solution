@@ -15,14 +15,14 @@
       <img src="img/conlogo.jpg" alt="CAMshots" usemap="#conlogo">
 
       <map name="conlogo">
-      <area shape="circle" coords="86,82,80" 
-      href="camhome.htm" alt="home page">
-      <area shape="rect" coords="222,120,310,161" 
-      href="tipweek.htm" alt="tip of the week">
-      <area shape="rect" coords="347,120,510,161" 
-      href="contest.htm" alt="photo contest">
-      <area shape="rect" coords="538,120,719,161" 
-      href="photogloss.htm" alt="photo glossary">
+        <area shape="circle" coords="86,82,80" 
+        href="camhome.htm" alt="home page">
+        <area shape="rect" coords="222,120,310,161" 
+        href="tipweek.htm" alt="tip of the week">
+        <area shape="rect" coords="347,120,510,161" 
+        href="contest.htm" alt="photo contest">
+        <area shape="rect" coords="538,120,719,161" 
+        href="photogloss.htm" alt="photo glossary">
       </map>
 
     </header>
@@ -36,16 +36,22 @@
     -->
 
     <section class="full">
-      <img src="img/contest1.png" alt="child">
+      <img src="img/contest1.png" alt="child" usemap="#contestmap">
 
       <!--
         ADVANCED: insert an image map with the following properties:
         a. Set the name of the image map as contestmap.
-        b. Add a polygonal hotspot pointing to the child.htm file containing the points (427, 5), (535, 20), (530, 59), and (421, 43). Enter Child Photos as the alternate test for the hotspot.
+        b. Add a polygonal hotspot pointing to the child.htm file containing the points (427, 5), (535, 20), (530, 59), and (421, 43). Enter Child Photos as the alternate text for the hotspot.
         c. Add a polygonal hotspot pointing to the flower.htm file containing the points (539, 57), (641, 84), (651, 46), and (547, 26). Enter Flower Photos as the alternate text for the hotspot.
         d. Add a polygonal hotspot pointing to the scenic.htm file containing the points (650, 86), (753, 125), (766, 78), (662, 49). Enter Scenic Photos as the alternate text for the hotspot.
         e. Apply the contestmap image map to the contest1 inline image.
       -->
+
+      <map name="contestmap">
+        <area shape="poly" coords="427, 5,535,20,530,59,421,43" href="child.htm" alt="Child Photos">
+        <area shape="poly" coords="539,57,641,84,651,46,547,26" href="flower.htm" alt="Flower Photos">
+        <area shape="poly" coords="650,86,753,125,766,78,662,49" href="scenic.htm" alt="Scenic Photos">
+      </map>
 
       <h2>First Place: Kate's Portrait</h2>
       <p><img src="img/child1.jpg" alt="child1"></p>
